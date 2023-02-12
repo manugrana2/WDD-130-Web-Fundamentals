@@ -79,7 +79,7 @@ main section img {
 body {
     background-color: var(--accent2-color); 
     color: var(--paragraph-background-color);
-    font-size: 22px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
 }
