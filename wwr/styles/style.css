@@ -44,12 +44,32 @@ nav a, .join, footer a{
     text-decoration: none;
 }
 
+.hero-btn-box{
+    margin-bottom: 15px;
+}
 .book-btn, .join{
     text-decoration: none;
     padding: 12px;
     color: var(--nav-hover-link-color);
     background-color: var(--secondary-color);
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border-radius: 5px;
 }
+
+.card-img {
+    border: 10px solid #7592BC;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
 
 #background {
     height: 725px;
@@ -59,6 +79,9 @@ nav a, .join, footer a{
 body {
     background-color: var(--accent2-color); 
     color: var(--paragraph-background-color);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
