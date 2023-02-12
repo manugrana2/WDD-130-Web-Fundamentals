@@ -26,6 +26,12 @@ Fonts are separated by a & */
   --nav-hover-link-color: white;
   --nav-hover-background-color: #33C191;
 }
+p{
+    font-family:--paragraph-font ;
+}
+h1, h2, h3 {
+    font-family: --heading-font;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -39,6 +45,7 @@ nav a, .join, footer a{
 }
 
 .book-btn, .join{
+    text-decoration: none;
     padding: 12px;
     color: var(--nav-hover-link-color);
     background-color: var(--secondary-color);
