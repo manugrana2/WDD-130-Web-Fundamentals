@@ -89,25 +89,22 @@
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
   background-color: red; 
+  grid-row: 1/4;
 } 
 .green4 {
-  width: 100px; 
   height: 100px; 
   background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
   height: 100px; 
   background-color: gold; 
 } 
 .blue4 {
-  width: 100px; 
   height: 100px; 
   background-color: blue; 
 } 
