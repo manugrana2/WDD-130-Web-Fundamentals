@@ -47,6 +47,13 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav a{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
