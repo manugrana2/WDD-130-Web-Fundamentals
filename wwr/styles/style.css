@@ -29,10 +29,10 @@ Fonts are separated by a & */
   --nav-hover-background-color: #33C191;
 }
 p{
-    font-family:--paragraph-font ;
+    font-family:var(--paragraph-font);
 }
 h1, h2, h3 {
-    font-family: --heading-font;
+    font-family: var(--heading-font);
 }
 #content{
     max-width: 1400px;
@@ -255,7 +255,7 @@ footer p a:hover {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: var(--nav-background-color);
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
