@@ -36,7 +36,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
 }
 img {
@@ -66,6 +66,11 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+ol{
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
