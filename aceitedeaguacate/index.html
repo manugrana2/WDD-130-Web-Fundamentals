@@ -6,6 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aceite de Aguacate Extravirgen orgánico | Organic Health</title>
     <link rel="stylesheet" href="styles/style.css">
+<style>
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
 </head>
 <body>
     <div id="content">
@@ -26,7 +65,7 @@
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Aceite de Aguacate Organic Health</h1>
-                <h4>Natural, extravirgen, sin convervantes químicos, prensado en frío. </h4>
+                <h4 class="title-des">Natural, extravirgen, sin convervantes químicos, prensado en frío. </h4>
                 <div class="hero-btn-box">
                     <a class="book-btn" href="contactus.html">Comprar</a>
                 </div>
@@ -45,6 +84,16 @@
             </section>
 
         </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d188516.38380316237!2d-75.6869246!3d4.814481!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwNDYnMTYuNyJOIDc1wrA0NScwOC40Ilc!5e1!3m2!1ses-419!2sco!4v1680216274489!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+</div>
         <main class="home-grid">
             <div id="background"></div> 
             <img class="mountains" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/83/92/76/eje-cafetero-zona-cafetera.jpg?w=1200&h=-1&s=1">
@@ -54,8 +103,7 @@
                    Nuestro proceso de cultivo y transformación es transparente con el medio ambiente. No utilizamos fertilizantes ni insecticidas químicos para producir el aguacate que usamos para extraer el aceite.
                    Por lo tanto, nuestro aceite se produce usando técnicas de cultivo orgánico.
                 </p>
-                <a class='join' href="https://goo.gl/maps/fRas65QKbgsiJpH28" target="_bla
-                ">Visítanos</a>
+                <a class='join' id="location">Visítanos</a>
             </section>
         </main>
         <footer>
@@ -75,6 +123,32 @@
             </div>
         </footer>
     </div>
-                
+    <script>
+        // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("location");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>          
 </body>
 </html>

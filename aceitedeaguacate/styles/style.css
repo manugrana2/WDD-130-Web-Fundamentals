@@ -271,6 +271,10 @@ footer p a:hover {
         font-size: 25px;
         color: var(--nav-background-color);
     }
+    .title-des {
+        font-size: 18px;
+        color: var(--nav-hover-background-color);
+    }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
@@ -326,4 +330,7 @@ form {
   
   input[type="submit"]:hover {
     background-color: var(--accent3-color);
+  }
+  .location-map{
+    width: 100%;
   }
