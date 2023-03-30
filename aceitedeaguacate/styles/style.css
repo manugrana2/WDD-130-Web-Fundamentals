@@ -95,6 +95,18 @@ nav a, .join, footer a{
     margin-top: 50px;
     margin-bottom: 150px;
     border-radius: 5px;
+    cursor:pointer;
+}
+.book-btn:hover, .join:hover{
+    text-decoration: none;
+    padding: 12px;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border-radius: 5px;
 }
 
 .card-img {
