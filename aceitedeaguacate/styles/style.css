@@ -346,3 +346,40 @@ form {
   .location-map{
     width: 100%;
   }
+
+  .benefits-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .benefits-title{
+    text-align: center;
+    grid-column: 2/5;
+  }
+
+  .benefits-main{
+    grid-column: 3/4;
+    grid-row: 2/5;
+  }
+  .benefits-card.card1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .benefits-card.card2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .benefits-card.card3{
+    grid-column: 3/4;
+    grid-row: 5/6;
+  }
+  .benefits-card.card4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+  .benefits-card.card5{
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+.benefits-card img{
+    width: 100px;
+}
