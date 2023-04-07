@@ -30,19 +30,26 @@ Fonts are separated by a & */
 
 .home-card.heart{
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 2/3;
 }
 .home-card.nutrient{
     grid-column: 3/4;
-    grid-row: 4/5;
+    grid-row: 3/4;
 }
 .home-card.handcrafted{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.home-card.peasant{
     grid-column: 3/4;
     grid-row: 5/6;
 }
 .home-card .card-img{
     width: 50px;
+    float: left;
+    margin-right: 5px;
 }
+
 
 p{
     font-family:var(--paragraph-font);
@@ -135,7 +142,7 @@ main section img {
 body {
     background-color: var(--accent2-color); 
     color: var(--paragraph-background-color);
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
